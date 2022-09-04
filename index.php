@@ -12,6 +12,12 @@
          private $title;
          private $genre;
          private $director;
+
+         function __construct($_title, $_genre, $_director) {
+            $this->title = $_title;
+            $this->genre = $_genre;
+            $this->director = $_director;
+         }
       }
    ?>
 </body>
