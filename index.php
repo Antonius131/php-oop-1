@@ -31,6 +31,9 @@
             return $this->director;
          }
       }
+
+      $_1stMovie = new Movie('Django - Unchained', 'Western', 'Quentin Tarantino');
+      $_2ndMovie = new Movie('Kill Bill vol.1', 'azione', 'Quentin Tarantino');
    ?>
 </body>
 </html>
