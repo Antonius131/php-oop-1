@@ -18,6 +18,18 @@
             $this->genre = $_genre;
             $this->director = $_director;
          }
+
+         public function getTitle() {
+            return $this->title;
+         }
+
+         public function getGenre() {
+            return $this->genre;
+         }  
+
+         public function getDirector() {
+            return $this->director;
+         }
       }
    ?>
 </body>
