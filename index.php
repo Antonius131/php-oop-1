@@ -35,5 +35,19 @@
       $_1stMovie = new Movie('Django - Unchained', 'Western', 'Quentin Tarantino');
       $_2ndMovie = new Movie('Kill Bill vol.1', 'azione', 'Quentin Tarantino');
    ?>
+
+   <h3>1st Movie</h3>
+   <ul>
+      <li>Title - <?php echo $_1stMovie->getTitle() ?></li>
+      <li>Genre - <?php echo $_1stMovie->getGenre() ?></li>
+      <li>Director - <?php echo $_1stMovie->getDirector() ?></li>
+   </ul>
+
+   <h3>2nd Movie</h3>
+   <ul>
+      <li>Title - <?php echo $_2ndMovie->getTitle() ?></li>
+      <li>Genre - <?php echo $_2ndMovie->getGenre() ?></li>
+      <li>Director - <?php echo $_2ndMovie->getDirector() ?></li>
+   </ul>
 </body>
 </html>
